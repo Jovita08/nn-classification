@@ -1,10 +1,12 @@
-# Developing a Neural Network Classification Model
+### EX NO : 02
+### DATE  :
+# <p align="center">Developing a Neural Network Classification Model</p>
 
-## AIM
+## AIM :
 
 To develop a neural network classification model for the given dataset.
 
-## Problem Statement
+## Problem Statement :
 
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 
@@ -12,11 +14,11 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 You are required to help the manager to predict the right group of the new customers.
 
-## Neural Network Model
+## Neural Network Model :
 
 ![Output](model.png)
 
-## DESIGN STEPS
+## DESIGN STEPS :
 
 ### STEP 1:
 
@@ -30,9 +32,10 @@ Split the data to training and testing
 
 Train the data and then predict using Tensorflow
 
-## PROGRAM
-         NAME   : VIRGIL JOVITA.A
-         REG NO : 212221240062
+## PROGRAM :
+Developed By: **Virgil Jovita.A**
+<br/>
+Register Number: **212221240062**
 
 ```PY
 import pandas as pd
@@ -166,13 +169,12 @@ x_single_prediction = np.argmax(ai_brain.predict(X_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
      
-
 ```
-## Dataset Information
+## Dataset Information :
 
 ![Output](OP1.png)
 
-## OUTPUT
+## OUTPUT :
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
@@ -191,6 +193,6 @@ print(le.inverse_transform(x_single_prediction))
 
 ![Output](OP5.png)
 
-## RESULT
-Thus a Neural Network Classification Model is created and executed successfully
+## RESULT :
+Thus a Neural Network Classification Model is created and executed successfully.
 
